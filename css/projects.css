@@ -1,0 +1,88 @@
+:root {
+    --font-primary: 'Baloo Tammudu 2', cursive;
+    --font-secondary: 'Nunito', sans-serif;
+}
+
+.projects {
+    width: 100vw;
+    margin-top: 3em;
+}
+
+#list {
+    width: 60vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.project-item {
+    width: 100%;
+    height: auto;
+    margin: 4em 0;
+    padding: 1em;
+    background-color: #fff;
+    background-color: #f2f2f250;
+    border-radius: 2em;
+    color: #fff;
+}
+
+.title-project {
+    font-size: 2em;
+    text-align: center;
+    font-family: var(--font-primary);
+}
+
+.description-project {
+    text-align: center;
+    font-family: var(--font-secondary);
+    font-size: 1.5em;
+    padding: 1em;
+}
+
+.share-project {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-project {
+    width: 5em;
+    padding: 1em;
+    text-align: center;
+    border-radius: 2em 0 0 2em;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+.link-project i {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.stack-project {
+    width: 100%;
+    text-align: left;
+    padding: 1em;
+    background-color: #f3f3f310;
+    border-radius: 0 2em 2em 0;
+    font-family: var(--font-secondary);
+}
+
+@media screen and (max-width: 768px) {
+
+    .projects {
+        height: auto;
+        margin-top: 2em;
+    }
+
+    #list {
+        width: 90%;
+    }
+
+    .description-project, .link-project {
+        height: 100%;
+    }
+}

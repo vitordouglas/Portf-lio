@@ -1,0 +1,137 @@
+/* CORES DOS CARDS */
+.container .card:hover .face.face1#react {
+    background: #1c5eec;
+}
+
+.container .card:hover .face.face1#javascript {
+    background: #bcc904;
+}
+
+.container .card:hover .face.face1#html {
+    background: #c91104;
+}
+
+.container .card:hover .face.face1#nodejs {
+    background: #2b9402;
+}
+
+.container .card:hover .face.face1#vuejs {
+    background: #19c709;
+}
+
+.container .card:hover .face.face1#git {
+    background: #a12803;
+}
+
+/* CSS CARDS */
+
+.containerCards {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-card {
+    font-size: 4em;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+
+.containerCards .card {
+    position: relative;
+    cursor: pointer;
+}
+
+.containerCards .card .face {
+    width: 20em;
+    height: 15em;
+    transition: 0.5s;
+}
+
+.containerCards .card .face.face1 {
+    position: relative;
+    background: #f3f3f340;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(100px);
+}
+
+.containerCards .card:hover .face.face1 {
+    transform: translateY(0);
+    border-radius: 2em 2em 0 0;
+}
+
+.containerCards .card .face.face1 .content {
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.containerCards .card:hover .face.face1 .content {
+    opacity: 1;
+}
+
+.containerCards .card .face.face1 .content img {
+    max-width: 100px;
+}
+
+.containerCards .card .face.face1 .content h3 {
+    margin: 10px 0 0 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.containerCards .card .face.face2 {
+    
+    position: relative;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba (0, 0, 0, 0.8);
+    transform: translateY(-100px);
+    opacity: 0;
+}
+
+.containerCards .card:hover .face.face2 {
+    transform: translateY(0);
+    border-radius: 0 0 2em 2em;
+    opacity: 1;
+}
+
+.containerCards .card .face.face2 .content p {
+    margin: 0;
+    padding: 0;
+}
+
+.containerCards .text {
+    width: 100%;
+    font-size: 1em;
+    color: black;
+    font-weight: bold;
+    text-shadow: none;
+    text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+    .containerCards {
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .containerCards .card .face {
+        width: 100%;
+        height: 13em;
+        transition: 0.5s;
+    }
+}
