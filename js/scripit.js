@@ -8,9 +8,9 @@ const projects =
             "stack": "HTML, CSS e JS"
         },
         {
-            "name": "Nome do Projeto",
+            "name": "GuitHub",
             "description": "Projetos iniciante criado com apoio do curso em vídeo.",
-            "link": "#",
+            "link": "https://github.com/vitordouglas",
             "icone": "fab fa-github",
             "stack": "HTML, CSS, JS"
         },
