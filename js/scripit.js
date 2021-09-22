@@ -15,9 +15,9 @@ const projects =
             "stack": "HTML, CSS, JS"
         },
         {
-            "name": "Nome do Projeto",
+            "name": "Projetos Inciantes com  apoio do curso da B7Web",
             "description": "",
-            "link": "#",
+            "link": "https://github.com/vitordouglas",
             "icone": "fab fa-github",
             "stack": "HTML, CSS, JS"
         }
