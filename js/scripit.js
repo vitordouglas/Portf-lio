@@ -2,8 +2,8 @@ const projects =
     [
         {
             "name": "Site Web - Modelo de Portfólio",
-            "description": "O projeto consiste em um web site modelo de um portfólio para Devs",
-            "link": "#",
+            "description": "O projeto consiste em um web site modelo de um portfólio para Devs em Front-And",
+            "link": "https://vitordouglas.github.io/portf-lio-Douglas/index",
             "icone": "fab fa-github",
             "stack": "HTML, CSS e JS"
         },
